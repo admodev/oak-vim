@@ -1,4 +1,4 @@
 augroup filetypedetect
-  au!
-  au BufRead,BufNewFile *.oak set filetype oak
+  autocmd!
+  autocmd BufRead,BufNewFile *.oak set filetype=oak
 augroup END
